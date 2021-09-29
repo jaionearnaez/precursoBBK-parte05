@@ -15,6 +15,18 @@
         * Pista:
         * Puedes utilizar un bucle para ir pedir una palabra al usuario e introducirlo en cada una de las posiciones del array.
         */
+       let arr = [];
+       for (let i=1;i<=3;i++){
+           arr[i-1] = prompt ("Introduce la palabra de la posicion " + i);
+        }
+
+        let orden = [1,2,0];
+
+        for (let i = 0; i < orden.length; i++){
+            //console.log(orden[i]);
+            console.log(arr[orden[i]]);
+        }
+
 
 
     </script>
